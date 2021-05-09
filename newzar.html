@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/car.css">
+    <link rel="icon" href="./image/logo_lka.PNG">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Lka</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><i class="fas fa-search"></i></li>
+                <li>Ангилал</li>
+                <li>Үйлдвэрлэгч</li>
+                <li>Загвар</li>
+                <li>Нөхцөл</li>
+                <li>Бусад</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="car">
+            <div class="car__items">
+                <p>Төрөл</p>
+                <input type="text" placeholder="Энд дарна уу?" list="carList"/>
+                <datalist id="carList">
+                    <option value="Суудлын"></option>
+                    <option value="Гэр бүлийн"></option>
+                    <option value="Жийп"></option>
+                    <option value="Ачааны"></option>
+                    <option value="Автобус"></option>
+                    <option value="Хүнд ММ"></option>
+                    <option value="Мотоцикл"></option>
+                </datalist>
+            </div>
+            <div class="car__items">
+                <P>Хүрд</P>
+                <input type="text" placeholder="Энд дарна уу?" list="carHurd"/>
+                <datalist id="carHurd">
+                <option value="Зөв"></option>
+                <option value="Буруу"></option>
+                    
+            </div>
+            <div class="car__items">
+                <p>Орж ирсэн он:</p>
+                <input type="date" placeholder="mm/dd/yyy"/>
+            </div>
+            <div class="car__items">
+                <P>Дугаартай эсэх</P>
+                <input type="text" placeholder="Энд дарна уу?" list="carNumber"/>
+                <datalist id="carNumber">
+                <option value="Дугаар авсан"></option>
+                <option value="Дугаар аваагүй"></option>
+            </div>
+            <div class="car__items">
+                <p>Гүйлт</p>
+                <input type="number" min="0" placeholder="Тоо бичих" pattern="number">км
+            </div>
+            <div class="car__items">
+                <p>Хөдөлгүүрийн багтаамж</p>
+                <input type="number" min="0.4" max="6" step=".1" placeholder="Энд дарна уу?"/>
+            </div>
+            <div class="car__items">
+                <p>Хроп</p>
+                <input type="text" placeholder="Энд дарна уу?" list="carKHrop"/>
+                <datalist id="carKHrop">
+                <option value="Автомат"></option>
+                <option value="Механик"></option>
+            </div>
+            <div class="car__items">
+                <p>Моторын төрөл</p>
+                <input type="text" placeholder="Энд дарна уу?" list="carMotor"/>
+                <datalist id="carMotor">
+                <option value="Бензин"></option>
+                <option value="Дизель"></option>
+                <option value="Газ"></option>
+                <option value="Хайбрид"></option>
+                <option value="Цахилгаан"></option>
+            </div>
+            <div class="car__items">
+                <p>Өнгө</p>
+                <input type="text" placeholder="энд бичнэ үү?">
+            </div>
+            <div class="car__items">
+                <p>Үнэ</p>
+                <input type="number" placeholder="Төгрөг">
+            </div>
+            <div class="car__items nemelt">
+                <p>Нэмэлт мэдээлэл</p>
+                <input type="text" placeholder="Энд бичнэ үү...">
+            </div>
+        </div>
+        <div class="car_image">
+            <input type="file">
+            <input type="file">
+            <input type="file">
+            <input type="file">
+            <input type="file">
+            <input type="file">
+        </div>
+
+    </div>
+    <div class="btn">
+        <input type="button" value="Зар оруулах" class="zarNemeh">
+    </div>
+    
+    <button class="btn"> <a href="./carzar.html"> буцах </a></button>
+
+    <div class="footer">
+        <div class="footer_items">
+            <ul>
+                <li>Санал хүсэлт</li>
+                <li>Холбоо барих</li>
+            </ul>
+        </div>
+        <div class="on">
+            <p> 2021 он</p>
+        </div>
+    </div>
+</body>
+</html>
+</html>

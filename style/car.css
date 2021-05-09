@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px !important; 
+    margin: auto;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(90deg,#a918fa,#6773fa);
+    color: #fff;
+}
+.header .logo {
+    padding-left: 1rem;
+}
+.header .menu ul {
+    display: flex;
+    align-items: center;
+    color: rgb(202, 195, 195);
+    border-left: 1px solid #393939;
+}
+.header .menu ul li {
+    list-style: none;
+    padding: 1rem 1.5rem;
+    transition: .3s;
+    align-items: center;
+}
+.header .menu ul li:hover {
+    color: #6773fa;
+    background-color: #fff;
+}
+.NewContent {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.NewContent .content {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.NewContent .content .block {
+    width: 23%;
+    height: 250px;
+    border: 3px solid #bcccdc;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.NewContent .content .block .caption {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 100%);
+    color: #999;
+    display: flex;
+    align-items: flex-end;
+}
+.NewContent .content .block .caption p {
+    padding: 10px;
+    transition: .3s;
+}
+.NewContent .content .block:hover p {
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(90deg,#9Fa5D5,#E8F5C8);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    margin: 15px 0;
+    color: #666;
+    transition: .3s;
+}
+button:hover {
+    color: rgb(49, 43, 43);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.category {
+    width: 100%;
+
+}
+.category .section {
+    width: 100%;
+}
+.category .section .section_name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #393939;
+    font-size: 18px;
+    margin-top: 1rem;
+    padding: 10px 0;
+
+}
+.category .section .section_items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.category .section .section_items .box {
+    width: 33%;
+    height: 200px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    background-image: linear-gradient(90deg,#a918fa,#6773fa);
+    color: #fff;
+}
+.footer .footer_items {
+    width: 100%;
+    display: flex;
+}
+.footer .footer_items ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .footer_items ul li {
+    list-style: none;
+    padding: .5rem 0;
+    transition: .3s;
+}
+.footer .footer_items ul li:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer .on {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;    
+}
+
+.container .gen_type {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.container .ads {
+    max-width: 60%;
+    margin: auto;
+    padding: 10px 0;
+}
+.container .gen_items {
+    width: 100%;
+}
+.container .gen_items table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.container .gen_items table tr td {
+    border-left: 2px solid #393939;
+    padding: 10px 0;
+}
+.bld {
+    font-weight: bold !important;
+}
+.pictures {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pictures img {
+    max-width: 35%;
+    margin: auto; 
+    padding: 2rem 0;
+}
+
+.container .car {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .car .car__items {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container .car .car__items p {
+    padding: 10px 1rem;
+}
+.container .car_image {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 10rem;
+    right: 2rem;
+    margin: 10px;
+
+}
+.container .car_image input {
+    background-color: #999;
+    border: 1px solid #666;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.btn {
+    width: 100%;
+    margin: 2rem;
+}
+.btn .zarNemeh {
+    margin-left: 50vh;
+    padding: 1rem 2rem;
+    background-color: #29b75a;
+    color: #fff;
+}
